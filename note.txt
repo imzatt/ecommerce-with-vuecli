@@ -1,0 +1,73 @@
+Day #1
+-------------
+- node_modules for package
+
+- Public => Entry point
+
+- src => Source File
+    => components (.vue)
+        - Card item
+
+    => views (.vue)
+        - Home,Shop,About
+
+.vue File
+    -> template (HTML)
+    -> script (JS)
+    -> style (CSS)
+
+Day #2
+-------------
+    1 => In Browser
+        - home.html / about.html / contact.html
+        - link a href
+        - script src (main Framework)
+            - creatApp
+                - data => variables define
+                - methods => function
+                - computed => function (return)
+                - filter => function (return)
+                - created()
+                - mounted()
+
+            - DOM
+                - reactivity 
+                - rendering (face to face work)
+                    v-if / v-for / v-html / v-binf / v-on
+
+    2 => CLI (Command Line Interface)
+        - index.html
+        - import
+        - import main framework
+        - Create Only Vue App
+            - views (.vue)
+            - router (route => view)
+            - components (.vue)
+
+            - HomeWorld / HomePage / NavBar / FooterPart
+
+Home Pages
+    - NavBar
+    - Slider
+    - Contact
+    - ADS section
+    - Footer
+
+About Pages
+    - NavBar
+    - About section
+    - Footer
+
+Contact Pages
+    - NavBar
+    - Contact section
+    - Footer
+
+View 
+    - HomePage
+    - AbouPage
+    - ContactPage
+
+Components
+    - NavBar
+    - FooterPart
